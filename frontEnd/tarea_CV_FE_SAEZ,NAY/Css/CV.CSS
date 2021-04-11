@@ -1,0 +1,54 @@
+header{
+    background-color: lightgrey;
+    text-align: center;
+    line-height: 2;
+}
+body{
+   magin: 0;
+    font-family: calibri,arial, Arial, Helvetica, sans-serif;
+    
+}
+
+main{
+margin: 50px auto;
+max-width: 800px;
+}
+
+section{
+margin-top: 30px;
+
+}
+h1, h2{
+background-color: silver;
+font-family: cambria,Times,serif;
+letter-spacing: 0.5em;
+}
+
+li{
+font-style: normal;
+font-size: small-caps;
+}
+h1{
+color: #1f497d;
+font-size: 24px;
+word-spacing: 1.5em;
+}
+h2{
+color: #632423;
+font-size: 18px;
+}
+.detail-item{
+font-style: italic;
+font-weight: bold;
+}
+
+footer{
+ background-color: blue;
+    color: white;
+    text-align: center;    
+    font-size: 24px;
+}
+.img_link{
+width: 20px;
+height: 20px;
+}
