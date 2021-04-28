@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+h1,aside,footer{
+    font-family: roboto, serif;
+
+}
+h2{
+    font-size: 58px;
+    font-family: inter, serif;
+}
+main{
+    width: 800px;
+    margin: auto;
+
+}
+.form-imput{
+    width: 409px;
+    height: 30px;
+}
+aside{
+background-color: turquoise;
+font-size: 15px;
+line-height: 17.58px;
+}
+header{
+background-color: teal;
+top: 0px;
+}
+h1{
+    color: white;
+    margin: 0%;
+    font-size: 45px;
+    letter-spacing: 0.1em;
+    line-height: 35.16px;
+    display: inline;
+   
+}
+.header{
+    padding-left: 20px;
+}
+.bottom{
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    padding: 0.5px 100px 0.5px 100px; 
+    border: white;
+    width: 408px;
+    height: 30px;
+    
+
+}
+footer{
+
+}

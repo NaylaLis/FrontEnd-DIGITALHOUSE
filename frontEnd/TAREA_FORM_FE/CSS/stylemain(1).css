@@ -1,0 +1,157 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+aside {
+    background-color: #1CD1B0;
+    font-size: 35px;
+}
+
+h1 {
+    color: white;
+    margin: 0%;
+    height: 64px;
+    line-height: 50px;
+    font-size: 35px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+header {
+    background-color: #00669f;
+    position: sticky;
+    top: 0px;
+    z-index: 2000;
+}
+
+.card-body {
+    text-align: center;
+    height: 300px;
+    padding: 40px;
+}
+
+p {
+    text-align: left;
+}
+
+
+/* Botón de ver más */
+
+.more-button {
+    background-color: #00669f;
+    padding: 15px;
+    width: 70px;
+    border-radius: 5%;
+    color: white;
+    /* display: inline; */
+    margin: auto;
+}
+
+
+/* Características comúnes de las cartas */
+
+.hero-cards {
+    width: 450px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.card {
+    position: relative;
+    margin-top: 100px;
+    background-color: #F3F3F3;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+
+/*Estilos del corazón*/
+
+.fa-heart {
+    position: absolute;
+    color: #CC2424;
+    font-size: 250%;
+    left: 20px;
+    top: 20px;
+}
+
+.fa-plus-circle {
+    color: #00669f;
+    position: fixed;
+    font-size: 50px;
+    right: 500px;
+    bottom: 100px;
+    z-index: 200;
+}
+
+
+/* Características comúnes de los header */
+
+.card-header {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    border-radius: 20%;
+}
+
+
+/* Portada de batman */
+
+.hero-background {
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+
+/* Características comúnes de foto de perfíl */
+
+.profile-hero {
+    background-size: cover;
+    position: absolute;
+    bottom: -20px;
+    left: 32%;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
+h3 {
+    display: inline;
+}
+
+footer {
+    background-color: #00669f;
+    color: white;
+    text-align: center;
+}
+
+.profile-batman {
+    background-image: url(../img/batman.jpg);
+    background-position: right 750px bottom 5px;
+}
+
+.background-batman {
+    background-image: url(../img/bg-batman.jpg);
+}
+
+.profile-wonderwoman {
+    background-image: url(../img/wonderw.jpg);
+}
+
+.background-wonderwoman {
+    background-image: url(../img/bg-wonderw.jpg);
+}
+
+.profile-superman {
+    background-image: url(../img/superman.jpg);
+    background-position: left -40px bottom 5px;
+}
+
+.background-superman {
+    background-image: url(../img/bg-superman.jpg);
+}
