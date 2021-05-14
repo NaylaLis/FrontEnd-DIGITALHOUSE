@@ -1,0 +1,4 @@
+body{
+grid-template-columns : Repeat(12,1fr);
+grid-template-rows: repeat(15, 1fr);
+}
