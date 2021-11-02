@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga de La Justicia</title>
+    <link rel="stylesheet" href="./css/stylenuevatarjeta.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+   
+<body>
+    <aside class="descuento">20% de descuento en todos los productos!</aside>
+    <header>
+      <h1><a><img class="im" src="img/foto-tienda.png" alt="icono tienda"></a>
+        Tienda de Superhéroes</h1>
+    </header>
+    <nav class="navegacion a">
+      <a href="./contacto.html">Contacto</a>
+      <a href="./registro.html">Registrarme</a>
+      <a href="./main.html">Ingresar</a>
+    </nav>
+  
+  
+  
+    <main class="caja-heroe">
+      <h1 class="titulo">Añadí tu super!</h1>
+      <p class="titulo">Agregá tu personaje favorito completando las siguientes opciones</p>
+      <form action="./index.html">
+        <div>
+          <div class="caja-columna izquierda">
+            <label class="subtitulos" for="nombre">*Nombre</label>
+            <input class="formulario" type="text" name="nombre" id="nombre" placeholder="Nayla Lis Saez" required>
+            <label class="subtitulos" for="fecha">Fecha</label>
+            <input class="formulario" type="date" name="fecha" id="fecha">
+            <textarea class="descripcion-heroe" name="descripcion" cols="30" rows="10"
+              placeholder="Describa aquí sus cualidades mas increibles"></textarea>
+          </div>
+  
+  
+          <div class="caja-columna derecha">
+            <label class="subtitulos" for="especie">*Especie</label>
+            <select class="formulario" name="especie" id="especie" required>
+              <option selected disable hidden>Elegí tu especie</option>
+              <option value="">Acuatica</option>
+              <option value="">Voladora</option>
+              <option value="">Terrestre</option>
+              <option value="">Millonaria</option>
+            </select>
+            <label class="subtitulos" for="agregar-foto">Agregar Foto</label>
+            <input type="file" name="agregar-foto" id="agregar-foto" accept=".jpg, .png">
+            <div><label class="subtitulos" for="poderes">Poderes</label>
+              <div>
+                <input class="form-check-radio" type="checkbox" name="poderes" id="volar" value="Volar">
+                <label class="checkbox-radio" for="volar">Volar</label>
+              </div>
+              <div>
+                <input class="form-check-radio" type="checkbox" name="poderes" id="superinteligente"
+                  value="Superinteligencia">
+                <label class="checkbox-radio" for="superinteligente">Superinteligencia</label>
+              </div>
+              <div>
+                <input class="form-check-radio" type="checkbox" name="poderes" id="rayos-laser" value="rayos-laser">
+                <label class="checkbox-radio" for="rayos-laser">Vista de rayo láser</label>
+              </div>
+              <div>
+                <input class="form-check-radio" type="checkbox" name="poderes" id="billetera-gorda"
+                  value="billetera-gorda">
+                <label class="checkbox-radio" for="billetera-gorda">Billetera gorda</label>
+              </div>
+            </div>
+            <hr>
+            <div><label class="subtitulos" for="personajes">Tipo de personajes</label>
+              <div>
+                <input class="form-check-radio" type="radio" name="personajes" id="heroina">
+                <label class="checkbox-radio" for="heroina">Héroe / Heroina</label>
+              </div>
+              <div>
+                <input class="form-check-radio" type="radio" name="personajes" id="villana">
+                <label class="checkbox-radio" for="villana">Villano / Villana</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div><input class="añadir" type="submit" name="añadir" value="Añadir"></div>
+      </form>
+    </main>
+    <footer>
+      <p class="footer-text">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+  </body>
+  
+  </html>
